@@ -6,3 +6,6 @@ from django.db import models
 class Event(models.Model):
     event_image = models.ImageField(upload_to='event_images/')  # Относительно BASE_DIR/media
     event_text = models.CharField(max_length=300)
+
+
+
